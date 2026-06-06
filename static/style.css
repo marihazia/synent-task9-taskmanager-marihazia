@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f8;
+    padding: 40px 0;
+}
+
+/* Container */
+.container {
+    width: 420px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    border: 1px solid #e8e8f0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #1a1a2e;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 1.5rem;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+/* INPUT WRAPPER */
+.input-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #f7f8fc;
+    border: 1px solid #e0e0ec;
+    border-radius: 10px;
+    padding: 0 12px;
+    height: 44px;
+    margin-bottom: 1rem;
+    transition: 0.2s;
+}
+
+.input-wrap:focus-within {
+    border-color: #4F46E5;
+    box-shadow: 0 0 0 3px rgba(79,70,229,0.1);
+}
+
+/* IMPORTANT FIX: input styling even without wrapper issues */
+input {
+    background: #f7f8fc;
+    border: 1px solid #e0e0ec;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 12px;
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #4F46E5;
+    box-shadow: 0 0 0 3px rgba(79,70,229,0.1);
+}
+
+/* Button */
+button {
+    width: 100%;
+    height: 44px;
+    background: #4F46E5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 6px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #4338CA;
+}
+
+/* Links */
+a {
+    color: #4F46E5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Task List */
+ul {
+    padding: 0;
+    margin-top: 16px;
+}
+
+li {
+    list-style: none;
+    background: #f7f8fc;
+    margin: 8px 0;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #e8e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #1a1a2e;
+}
+
+/* Delete button */
+li a {
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+li a:hover {
+    background: #fca5a5;
+}
+
+/* Flash messages */
+.flash {
+    background: #fef2f2;
+    color: #b91c1c;
+    border: 1px solid #fecaca;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.footer-link {
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    margin-top: 1.25rem;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.link-danger {
+    background: none !important;
+    color: #b91c1c !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    font-size: 13px !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.link-danger:hover {
+    text-decoration: underline;
+    background: none !important;
+}
+.btn-logout {
+    width: auto;
+    padding: 8px 18px;
+    background: none;
+    color: #b91c1c;
+    border: 1px solid #b91c1c;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+.btn-logout:hover {
+    background: #a52828;
+    color: white;
+   border: 1px solid #a52828;
+}
