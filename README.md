@@ -88,12 +88,15 @@ TaskManager/
 ## Login Page
 
   <img width="412" height="339" alt="image" src="https://github.com/user-attachments/assets/fb0f2975-ab50-4ebf-9f0e-b65065075fd8" />
+  
 ## Register Page
 
   <img width="391" height="329" alt="image" src="https://github.com/user-attachments/assets/937fa9e3-fc7a-4410-9903-0d3e2fc7afcb" />
+  
 ## Dashboard
 
   <img width="428" height="401" alt="image" src="https://github.com/user-attachments/assets/5b698275-a86f-48dc-86f1-e0090b979fe9" />
+  
 ## Task Management Interface
 
   <img width="470" height="446" alt="image" src="https://github.com/user-attachments/assets/d23a2896-3abe-4619-bf39-969cb74bf76c" />
